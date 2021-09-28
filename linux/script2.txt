@@ -1,0 +1,6 @@
+#!/bin/bash
+paths=('ontario' 'saskatchewan' 'manitoba' 'british columbia' 'alberta')
+for path in ${paths[@]}
+do
+   ls -la
+done

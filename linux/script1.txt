@@ -1,0 +1,16 @@
+#!/bin/bash
+p=/home/sysadmin/research/sys_info.txt
+
+if [ -d /home/sysadmin/research ]
+then
+    echo "the directory exists"
+else
+    mkdir research
+fi
+
+if [ -f p ]
+then
+    rm sys_info.txt
+else
+    echo "the file does not exists"
+fi
